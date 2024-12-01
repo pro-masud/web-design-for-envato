@@ -1,7 +1,13 @@
 @use 'variable' as var;
 @use 'mixin' as ex;
 
+@use 'test' as *;
+
 *{
     margin: 0px;
     padding: 0px;
+}
+
+h1{
+    color: $color;
 }
