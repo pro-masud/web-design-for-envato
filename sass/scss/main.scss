@@ -1,5 +1,20 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: "candara";
+$color_one: red;
+$color_two: green;
+$color_three: blue;
+
+@mixin transition($sec : .3s ){
+    -webkit-transition: all $sec;
+    -o-transition: all $sec;
+    transition: all $sec;
+}
+
+h1{
+    color: $color_one;
+}
+p{
+    color: $color_two;
+}
+span{
+    color: $color_three;
+    @include transition(.3s);
 }

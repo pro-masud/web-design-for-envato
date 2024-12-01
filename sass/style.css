@@ -1,7 +1,16 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  font-family: "candara";
+h1 {
+  color: red;
+}
+
+p {
+  color: green;
+}
+
+span {
+  color: blue;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 /*# sourceMappingURL=style.css.map */
