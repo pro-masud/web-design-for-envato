@@ -1,25 +1,23 @@
-@use 'variable' as var;
-@use 'mixin' as ex;
-
-@use 'test' as *;
+@use 'utils/variable' as *;
+@use 'utils/mixin' as *;
+@use 'utils/test' as *;
 
 *{
     margin: 0px;
     padding: 0px;
 }
-
 h1{
     color: $color;
     font-family: $font_family;
 }
 
+// inharitents and extents 
 %demo{
     color: #333;
     font-family: "candara";
     font-weight: 700;
     text-align: center;
 }
-
 .title-1{
    @extend %demo;
    text-align: left
