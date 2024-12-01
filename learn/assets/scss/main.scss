@@ -10,4 +10,24 @@
 
 h1{
     color: $color;
+    font-family: $font_family;
+}
+
+%demo{
+    color: #333;
+    font-family: "candara";
+    font-weight: 700;
+    text-align: center;
+}
+
+.title-1{
+   @extend %demo;
+   text-align: left
+}
+.title-2{
+   @extend %demo;
+}
+.title-3{
+   @extend %demo;
+   text-align: right;
 }
