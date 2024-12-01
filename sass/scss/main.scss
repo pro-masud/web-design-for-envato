@@ -1,20 +1,13 @@
-$color_one: red;
-$color_two: green;
-$color_three: blue;
-
-@mixin transition($sec : .3s ){
-    -webkit-transition: all $sec;
-    -o-transition: all $sec;
-    transition: all $sec;
-}
+@use 'variable' as var;
+@use 'mixin' as mx;
 
 h1{
-    color: $color_one;
+    color: var.$color_one;
 }
 p{
-    color: $color_two;
+    color: var.$color_two;
 }
 span{
-    color: $color_three;
-    @include transition(.3s);
+    color: var.$color_three;
+    @include mx.transition(.3s);
 }
