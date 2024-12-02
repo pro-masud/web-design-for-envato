@@ -62,4 +62,31 @@ h1 {
   text-align: center;
 }
 
+.demo {
+  color: #fff;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.header {
+  background-color: #333333;
+  grid-column: 1/-1;
+}
+
+.menu {
+  background-color: #19d10c;
+  grid-column: 1/4;
+}
+
+.content {
+  background-color: #0b71b9;
+  grid-column: 4/-1;
+}
+
+.footer {
+  background-color: #cb0c9f;
+  grid-column: 1/-1;
+}
+
 /*# sourceMappingURL=style.css.map */
