@@ -53,6 +53,9 @@ h1 {
   color: #999;
   text-align: center;
 }
+.lnservices__content--text span {
+  color: red;
+}
 .lnservices__title {
   font-size: 20px;
   color: #333;

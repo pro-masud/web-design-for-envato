@@ -72,10 +72,16 @@ h1{
             color: #999;
             text-align: center;
         }
+        &--text{
+            & span{
+               color: red; 
+            }
+        }
     }
     &__title{
         font-size: 20px;
         color: #333;
         text-align: center;
     }
+    
 }
