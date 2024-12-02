@@ -23,4 +23,32 @@ h1 {
   text-align: right;
 }
 
+.service .service-thum img {
+  max-width: 200px;
+}
+.service .service-content h2 {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+.service .service-content p {
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+}
+
+.lnservices__thumb img {
+  max-width: 200px;
+}
+.lnservices__content p {
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+}
+.lnservices__title {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */

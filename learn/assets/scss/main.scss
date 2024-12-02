@@ -29,3 +29,47 @@ h1{
    @extend %demo;
    text-align: right;
 }
+
+// Normal Markup Style Here Now
+.service{
+    .service-thum{
+        img{
+            max-width: 200px;
+        }
+    }
+
+    .service-content{
+        h2{
+            font-size: 20px;
+            color: #333;
+            text-align: center;
+        }
+        p{
+            font-size: 16px;
+            color: #999;
+            text-align: center;
+        }
+    }
+}
+
+// BEM Markup Style Here Now
+
+.lnservices{
+    &__thumb{
+        img{
+            max-width: 200px;
+        }
+    }
+    &__content{
+        & p{
+            font-size: 16px;
+            color: #999;
+            text-align: center;
+        }
+    }
+    &__title{
+        font-size: 20px;
+        color: #333;
+        text-align: center;
+    }
+}
