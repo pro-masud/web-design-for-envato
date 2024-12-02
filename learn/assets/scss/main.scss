@@ -32,9 +32,12 @@ h1{
 
 // Normal Markup Style Here Now
 .service{
+    text-align: center;
+
     .service-thum{
         img{
             max-width: 200px;
+            border-radius: 50%;
         }
     }
 
@@ -55,9 +58,12 @@ h1{
 // BEM Markup Style Here Now
 
 .lnservices{
+    text-align: center;
+
     &__thumb{
         img{
             max-width: 200px;
+            border-radius: 50%;
         }
     }
     &__content{

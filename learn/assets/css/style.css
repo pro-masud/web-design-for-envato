@@ -23,8 +23,12 @@ h1 {
   text-align: right;
 }
 
+.service {
+  text-align: center;
+}
 .service .service-thum img {
   max-width: 200px;
+  border-radius: 50%;
 }
 .service .service-content h2 {
   font-size: 20px;
@@ -37,8 +41,12 @@ h1 {
   text-align: center;
 }
 
+.lnservices {
+  text-align: center;
+}
 .lnservices__thumb img {
   max-width: 200px;
+  border-radius: 50%;
 }
 .lnservices__content p {
   font-size: 16px;
