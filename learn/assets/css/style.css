@@ -1,5 +1,18 @@
-.header {
-  color: #fff;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  --ln-theme-color: green;
+  --ln-theme-sec-color: blue;
+  --ln-black: black;
+  --ln-white: white;
+  --ln-grey-color: #f6f6f6;
+  --ln-grey-color-2: #f6f6f6;
+  --ln-grey-color-3: #f6f6f6;
+  --ln-grey-color-4: #f6f6f6;
+}
+
+:root {
+  --ln-fonts-poppins: "Poppins", sans-serif;
+  --ln-fonts-muli: "Muli", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

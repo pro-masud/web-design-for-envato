@@ -1,3 +1,6 @@
-@forward './utils/index';
-@forward './components/index';
-@forward './layouts/index';
+@use 'utils' as *;
+
+@forward 'utils';
+@forward 'components';
+@forward 'theme';
+@forward 'layouts';
