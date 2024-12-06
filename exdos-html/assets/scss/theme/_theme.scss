@@ -140,11 +140,11 @@
 	typography css start 
 ---------------------------------*/
 body {
-	font-family: var(--exdos-fonts-poppins);
-	font-size: 14px;
+	font-family: var(--exdos-font-body);
+	font-size: 17px;
 	font-weight: normal;
 	color: var(--exdos-black);
-	line-height: 26px;
+	line-height: 28px;
 }
 
 a{
@@ -157,7 +157,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--exdos-fonts-muli);
+	font-family: var(--exdos-font-heading);
 	color: var(--exdos-theme-sec-color);
 	margin-top: 0px;
 	font-weight: 700;
