@@ -3588,4 +3588,17 @@ textarea {
   height: 100vh;
 }
 
+.exdos-main-menu ul li {
+  display: inline-block;
+  margin-right: 43px;
+}
+.exdos-main-menu ul li a {
+  color: var(--exdos-white);
+  font-family: var(--exdos-font-heading);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 43px 0;
+  display: inline-block;
+}
+
 /*# sourceMappingURL=style.css.map */

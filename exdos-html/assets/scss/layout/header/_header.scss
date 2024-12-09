@@ -1,7 +1,5 @@
 @use '../../utils' as *;
 
-
-
 .exdos-transparent-header{
     position: absolute;
     top: 0px;
@@ -11,4 +9,21 @@
 
 .hero{
     height: 100vh;
+}
+
+.exdos-main-menu{
+    & ul{
+        & li{
+            display: inline-block;
+            margin-right: 43px;
+           & a{
+                color: var(--exdos-white);
+                font-family: var(--exdos-font-heading);
+                font-size: 18px;
+                font-weight: 400;
+                padding: 43px 0;
+                display: inline-block;
+            }
+        }
+    }
 }
