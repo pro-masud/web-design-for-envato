@@ -3591,6 +3591,7 @@ textarea {
 .exdos-main-menu ul li {
   display: inline-block;
   margin-right: 43px;
+  position: relative;
 }
 .exdos-main-menu ul li a {
   color: var(--exdos-white);
@@ -3599,6 +3600,22 @@ textarea {
   font-weight: 400;
   padding: 36px 0;
   display: inline-block;
+}
+.exdos-main-menu ul li .sub-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 250px;
+  background-color: var(--exdos-white);
+}
+.exdos-main-menu ul li .sub-menu li {
+  display: block;
+  margin: 0 0;
+}
+.exdos-main-menu ul li .sub-menu li a {
+  display: block;
+  color: var(--exdos-black);
+  padding: 10px 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
