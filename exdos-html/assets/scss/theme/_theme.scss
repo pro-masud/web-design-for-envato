@@ -296,13 +296,13 @@ textarea{
 }
 
 *::-moz-selection {
-	background: var(--exdos-common-black);
-	color: var(--exdos-common-white);
+	background: #333;
+	color:  #333;
 	text-shadow: none;
 }
 *::selection {
-	background: var(--exdos-common-black);
-	color: var(--exdos-common-white);
+	background: #333;
+	color:  #fff;
 	text-shadow: none;
 }
 
