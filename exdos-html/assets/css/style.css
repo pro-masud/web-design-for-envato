@@ -3615,15 +3615,28 @@ textarea {
   display: block;
   margin-right: 0;
 }
+.exdos-main-menu ul li .sub-menu li .sub-menu {
+  left: 100%;
+  top: 110%;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
 .exdos-main-menu ul li .sub-menu li a {
   display: block;
   color: var(--exdos-black);
   padding: 10px 25px;
   font-size: 18px;
 }
-.exdos-main-menu ul li .sub-menu li:hover a {
+.exdos-main-menu ul li .sub-menu li:hover > a {
   color: var(--exdos-primary-color);
   transition: 0.4s;
+}
+.exdos-main-menu ul li .sub-menu li:hover > .sub-menu {
+  left: 100%;
+  top: 0;
+  opacity: 1;
+  visibility: visible;
 }
 .exdos-main-menu ul li:hover a {
   color: var(--exdos-secondary-color);

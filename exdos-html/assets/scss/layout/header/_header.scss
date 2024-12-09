@@ -38,6 +38,13 @@
                     display: block;
                     margin-right: 0;
                     
+                    & .sub-menu{
+                        left: 100%;
+                        top: 110%;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: .4s;
+                    }
                     & a{
                         display: block;
                         color: var(--exdos-black);
@@ -45,10 +52,16 @@
                         font-size: 18px;
                     }
                     &:hover{
-                       & a{
+                       & > a{
                             color: var(--exdos-primary-color) ;
                             transition: .4s;
                        }
+                       & > .sub-menu{
+                        left: 100%;
+                        top: 0;
+                        opacity: 1;
+                        visibility: visible;
+                    }
                     }
                 }
             }
