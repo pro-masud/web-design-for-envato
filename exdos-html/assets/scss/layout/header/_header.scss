@@ -1,1 +1,14 @@
 @use '../../utils' as *;
+
+
+
+.exdos-transparent-header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.hero{
+    height: 100vh;
+}

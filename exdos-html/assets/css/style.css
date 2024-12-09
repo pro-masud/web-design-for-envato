@@ -3577,4 +3577,15 @@ textarea {
   padding-right: 100px;
 }
 
+.exdos-transparent-header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.hero {
+  height: 100vh;
+}
+
 /*# sourceMappingURL=style.css.map */
