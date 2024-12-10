@@ -132,7 +132,7 @@
   --exdos-body-color: #57595C;
   --exdos-black: black;
   --exdos-white: white;
-  --exdos-grey-color: #f6f6f6;
+  --exdos-grey-color: #b1b4ba;
   --exdos-grey-color-2: #f6f6f6;
   --exdos-grey-color-3: #f6f6f6;
   --exdos-grey-color-4: #f6f6f6;
@@ -3646,6 +3646,37 @@ textarea {
   opacity: 1;
   visibility: visible;
   top: 100%;
+}
+
+.exdos-header-cta {
+  padding: 0px 50px 0px 25px;
+}
+.exdos-header-cta-icon {
+  margin: 0 15px 0 30px;
+}
+.exdos-header-cta-content span {
+  font-family: var(--exdos-font-body);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: var(--exdos-grey-color);
+  margin: 0;
+  margin-bottom: 4px;
+}
+.exdos-header-cta-content h3 {
+  font-family: var(--exdos-font-body);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--exdos-white);
+  margin: 0;
+}
+.exdos-header-cta-content h3 a {
+  color: inherit;
+  font-size: inherit;
+}
+.exdos-header-menu-bar button {
+  padding: 37px 23px;
+  background-color: #23252D;
 }
 
 /*# sourceMappingURL=style.css.map */

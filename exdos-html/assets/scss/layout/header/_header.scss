@@ -84,5 +84,42 @@
     }
 }
 .exdos-header{
-    
+    &-serach{
+
+    }
+    &-cta{
+        padding: 0px 50px 0px 25px;
+
+        &-icon{
+            margin: 0 15px 0 30px;
+        }
+        &-content{
+            span{
+                font-family: var(--exdos-font-body);
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 26px;
+                color: var(--exdos-grey-color);
+                margin: 0;
+                margin-bottom: 4px;
+            }
+            h3{
+                font-family: var(--exdos-font-body);
+                font-weight: 400;
+                font-size: 18px;
+                color: var(--exdos-white);
+                margin: 0;
+                a{
+                    color: inherit;
+                    font-size: inherit;
+                }
+            }
+        }
+    }
+    &-menu-bar{
+        & button{
+            padding: 37px 23px;
+            background-color: #23252D;
+        }
+    }
 }
