@@ -326,6 +326,10 @@ textarea {
   opacity: 1;
 }
 
+.exdos-black-bg {
+  background-color: #0A0E1A;
+}
+
 .w-img img {
   width: 100%;
 }
@@ -3579,6 +3583,14 @@ textarea {
   padding-right: 100px;
 }
 
+.pt-295 {
+  padding-top: 295px;
+}
+
+.pb-180 {
+  padding-bottom: 180px;
+}
+
 .exdos-transparent-header {
   position: absolute;
   top: 0px;
@@ -3587,7 +3599,7 @@ textarea {
 }
 
 .hero {
-  height: 100vh;
+  height: 30vh;
 }
 
 .exdos-main-menu ul li {
@@ -3688,6 +3700,28 @@ textarea {
 .exdos-header-menu-bar button {
   padding: 36px 23px;
   background-color: #23252D;
+}
+
+.exdos-hero-title {
+  font-size: 110px;
+  text-transform: uppercase;
+  color: var(--exdos-white);
+  margin: 0;
+}
+.exdos-hero-title span {
+  background: radial-gradient(42.24% 2817.5% at 52.45% 54.17%, rgba(255, 232, 21, 0.95) 0%, #3C7FFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.exdos-hero-title i {
+  font-size: 30px;
+  color: #b1b4ba;
+  display: inline-block;
+  font-style: normal;
+  transform: translateY(-5px);
+  line-height: 133%;
 }
 
 /*# sourceMappingURL=style.css.map */

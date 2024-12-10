@@ -1,0 +1,25 @@
+@use '../../utils' as *;
+
+.exdos-hero{
+    &-title{
+        font-size: 110px;
+        text-transform: uppercase;
+        color: var(--exdos-white);
+        margin: 0;
+        span{
+            background: radial-gradient(42.24% 2817.5% at 52.45% 54.17%, rgba(255, 232, 21, 0.95) 0%, #3C7FFF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        & i{
+            font-size: 30px;
+            color: #b1b4ba;
+            display: inline-block;
+            font-style: normal;
+            transform: translateY(-5px);
+            line-height: 133%;
+        }
+    }
+}

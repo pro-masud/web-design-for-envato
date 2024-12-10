@@ -40,3 +40,10 @@
 @for $i from 1 through 100 {
     .pr-#{1 * $i}{padding-right: 1px *$i;}
 }
+
+.pt-295{
+    padding-top: 295px;
+}
+.pb-180{
+    padding-bottom: 180px;
+}
