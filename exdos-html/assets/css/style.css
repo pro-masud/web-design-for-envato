@@ -131,7 +131,9 @@
   --exdos-nblue-color: #001C52;
   --exdos-body-color: #57595C;
   --exdos-black: black;
-  --exdos-white: white;
+  --exdos-white: #fff;
+  --exdos-black-rgba: #000;
+  --exdos-white-rgba: 255, 255, 255;
   --exdos-grey-color: #b1b4ba;
   --exdos-grey-color-2: #f6f6f6;
   --exdos-grey-color-3: #f6f6f6;
@@ -3648,11 +3650,20 @@ textarea {
   top: 100%;
 }
 
+.exdos-header-border {
+  border-bottom: 1px solid rgba(var(--exdos-white-rgba), 0.15);
+}
+.exdos-header-serach {
+  margin-right: 30px;
+}
 .exdos-header-cta {
-  padding: 0px 50px 0px 25px;
+  display: flex;
+  align-items: center;
+  padding: 25px 50px 25px 30px;
+  border-left: 1px solid rgba(var(--exdos-white-rgba), 0.15);
 }
 .exdos-header-cta-icon {
-  margin: 0 15px 0 30px;
+  margin-right: 15px;
 }
 .exdos-header-cta-content span {
   font-family: var(--exdos-font-body);
@@ -3675,7 +3686,7 @@ textarea {
   font-size: inherit;
 }
 .exdos-header-menu-bar button {
-  padding: 37px 23px;
+  padding: 36px 23px;
   background-color: #23252D;
 }
 
