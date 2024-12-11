@@ -51,26 +51,27 @@
     animation: br-translate-right 2s ease infinite;
 }
 
-
-@keyframes br-translate {
-    0% {
-      transform: translateX(0px) translateY(0px);
-    }
-    50% {
-      transform: translateX(-5px) translateY(-5px);
-    }
-    100% {
-      transform: translateX(0px) translateY(0px);
-    }
+.exdos-hero-info{
+    color: var(--exdos-grey-color);
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    top: 100px;
+    z-index: 11;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    white-space: nowrap;
 }
-@keyframes br-translate-right {
-    0% {
-      transform: translateX(0px) translateY(0px);
-    }
-    50% {
-      transform: translateX(5px) translateY(5px);
-    }
-    100% {
-      transform: translateX(0px) translateY(0px);
-    }
+.exdos-hero-social{
+    transform: rotate(-90deg);
+    display: block ruby;
+}
+.exdos-hero-text{
+    transform: rotate(-90deg);
+    display: block ruby;
 }
