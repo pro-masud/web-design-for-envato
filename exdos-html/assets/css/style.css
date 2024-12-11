@@ -3731,4 +3731,59 @@ textarea {
   line-height: 133%;
 }
 
+.exdos-hero-shape-1 {
+  top: 370px;
+  left: -40px;
+  z-index: 1;
+}
+
+.exdos-hero-shape-2 {
+  top: 295px;
+  left: 382px;
+  z-index: 1;
+}
+
+.exdos-hero-shape-3 {
+  top: 34%;
+  left: 58%;
+  z-index: 1;
+}
+
+.exdos-hero-shape-4 {
+  bottom: 140px;
+  right: 300px;
+  z-index: 1;
+  animation: br-translate 2s ease infinite;
+}
+
+.exdos-hero-shape-5 {
+  top: 212px;
+  right: 193px;
+  z-index: 1;
+  animation: br-translate-right 2s ease infinite;
+}
+
+@keyframes br-translate {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  50% {
+    transform: translateX(-5px) translateY(-5px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+@keyframes br-translate-right {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  50% {
+    transform: translateX(5px) translateY(5px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
