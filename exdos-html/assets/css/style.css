@@ -219,7 +219,7 @@ h4,
 h5,
 h6 {
   font-family: var(--exdos-font-heading);
-  color: var(--exdos-theme-sec-color);
+  color: var(--exdos-heading-color);
   margin-top: 0px;
   font-weight: 700;
   line-height: 1.2;
@@ -258,7 +258,7 @@ p {
   font-family: var(--exdos-font-body);
   font-size: 17px;
   font-weight: 400;
-  color: var(--exdos-text-body);
+  color: var(--exdos-body-color);
   margin-bottom: 15px;
   line-height: 28px;
 }
@@ -3428,6 +3428,126 @@ textarea {
   padding-left: 100px;
 }
 
+.pl-101 {
+  padding-left: 101px;
+}
+
+.pl-102 {
+  padding-left: 102px;
+}
+
+.pl-103 {
+  padding-left: 103px;
+}
+
+.pl-104 {
+  padding-left: 104px;
+}
+
+.pl-105 {
+  padding-left: 105px;
+}
+
+.pl-106 {
+  padding-left: 106px;
+}
+
+.pl-107 {
+  padding-left: 107px;
+}
+
+.pl-108 {
+  padding-left: 108px;
+}
+
+.pl-109 {
+  padding-left: 109px;
+}
+
+.pl-110 {
+  padding-left: 110px;
+}
+
+.pl-111 {
+  padding-left: 111px;
+}
+
+.pl-112 {
+  padding-left: 112px;
+}
+
+.pl-113 {
+  padding-left: 113px;
+}
+
+.pl-114 {
+  padding-left: 114px;
+}
+
+.pl-115 {
+  padding-left: 115px;
+}
+
+.pl-116 {
+  padding-left: 116px;
+}
+
+.pl-117 {
+  padding-left: 117px;
+}
+
+.pl-118 {
+  padding-left: 118px;
+}
+
+.pl-119 {
+  padding-left: 119px;
+}
+
+.pl-120 {
+  padding-left: 120px;
+}
+
+.pl-121 {
+  padding-left: 121px;
+}
+
+.pl-122 {
+  padding-left: 122px;
+}
+
+.pl-123 {
+  padding-left: 123px;
+}
+
+.pl-124 {
+  padding-left: 124px;
+}
+
+.pl-125 {
+  padding-left: 125px;
+}
+
+.pl-126 {
+  padding-left: 126px;
+}
+
+.pl-127 {
+  padding-left: 127px;
+}
+
+.pl-128 {
+  padding-left: 128px;
+}
+
+.pl-129 {
+  padding-left: 129px;
+}
+
+.pl-130 {
+  padding-left: 130px;
+}
+
 /*-- Padding Right --*/
 .pr-1 {
   padding-right: 1px;
@@ -4024,6 +4144,24 @@ textarea {
 .exdos-hero-text {
   transform: rotate(-90deg);
   display: block ruby;
+}
+
+.exdos-about-video-area {
+  display: flex;
+  align-items: center;
+}
+.exdos-about-video-icon a {
+  width: 80px;
+  height: 80px;
+  border: 1px solid var(--exdos-body-color);
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 75px;
+}
+.exdos-about-video h4 {
+  font-size: 30px;
+  color: var(--exdos-body-color);
 }
 
 /*# sourceMappingURL=style.css.map */
