@@ -27,7 +27,7 @@
 }
 
 /*-- Padding Bottom --*/
-@for $i from 1 through 100 {
+@for $i from 1 through 150 {
     .pb-#{1 * $i}{padding-bottom: 1px *$i;}
 }
 
