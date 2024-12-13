@@ -168,21 +168,21 @@
   }
 }
 .exdos-btn {
-  background-color: var(--exdos-primary-color);
-  font-family: var(--exdos-font-heading);
-  font-size: 18px;
-  color: var(--exdos-heading-color);
-  padding: 21px 47px;
-  border-radius: 5px;
-  display: inline-block;
-}
-
-.exdos-btn-sec {
   background-color: var(--exdos-secondary-color);
   font-family: var(--exdos-font-heading);
   font-size: 18px;
   color: var(--exdos-heading-color);
   padding: 16px 46px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.exdos-btn-sec {
+  background-color: var(--exdos-primary-color);
+  font-family: var(--exdos-font-heading);
+  font-size: 18px;
+  color: var(--exdos-heading-color);
+  padding: 21px 47px;
   border-radius: 5px;
   display: inline-block;
 }
