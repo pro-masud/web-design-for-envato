@@ -182,9 +182,12 @@
   font-family: var(--exdos-font-heading);
   font-size: 18px;
   color: var(--exdos-heading-color);
-  padding: 21px 47px;
+  padding: 16px 46px;
   border-radius: 5px;
   display: inline-block;
+}
+.exdos-btn-sec-lg {
+  padding: 21px 47px;
 }
 
 .section-title {
@@ -316,15 +319,16 @@ input[type=password],
 input[type=url],
 textarea {
   outline: none;
-  background-color: #fff;
+  background-color: transparent;
   height: 56px;
   width: 100%;
   line-height: 56px;
   font-size: 14px;
-  color: var(--exdos-common-black);
-  padding-left: 26px;
-  padding-right: 26px;
-  border: 1px solid #E0E2E3;
+  color: var(--exdos-white);
+  border: 0;
+  border-bottom: 1px solid var(--exdos-white);
+  text-transform: uppercase;
+  font-weight: 500;
 }
 input[type=text]:focus,
 input[type=email]:focus,
