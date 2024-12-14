@@ -11,12 +11,18 @@
             flex-wrap: wrap;
             justify-content: space-between;
         }
-        
+        h2{
+            font-size: 100px;
+            color: var(--exdos-white);
+            opacity: .1;
+            position: absolute;
+            left: 100px;
+            top: -27px;
+        }
     }
 }
 .exdos-newsletter-input{
     width: calc(100% - 205px);
-
     input{
         color: var(--exdos-white);
         border-color: var(--exdos-white);
@@ -29,7 +35,6 @@
             border-color: var(--exdos-white);
         }
     }
-
     img{
         position: absolute;
         right: 25px;
