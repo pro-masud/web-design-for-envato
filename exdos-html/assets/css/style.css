@@ -130,6 +130,7 @@
   --exdos-heading-color: #0A0E1A;
   --exdos-nblue-color: #001C52;
   --exdos-body-color: #57595C;
+  --exdos-sd-color: #FBF6EF;
   --exdos-black: black;
   --exdos-white: #fff;
   --exdos-black-rgba: #000;
@@ -4482,6 +4483,7 @@ textarea {
   padding: 40px;
   border-radius: 20px;
   margin-right: -1px;
+  transition: 0.3s;
 }
 .exdos-service-single-title {
   font-size: 30px;
@@ -4490,6 +4492,44 @@ textarea {
 .exdos-service-single-content p {
   font-size: 17px;
   color: var(--exdos-body-color);
+}
+.exdos-service-single-list {
+  list-style: none;
+}
+.exdos-service-single-list li {
+  margin-bottom: 5px;
+  color: var(--exdos-body-color);
+}
+.exdos-service-single-list li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--exdos-body-color);
+  display: inline-block;
+  margin-right: 10px;
+  transform: translateY(-2px);
+}
+.exdos-service-single:hover {
+  background-color: var(--exdos-sd-color);
+}
+.exdos-service-single:hover .service-btn .exdos-sv-btn {
+  background-color: var(--exdos-primary-color);
+  color: var(--exdos-white);
+}
+.exdos-service-single .service-btn .exdos-sv-btn {
+  font-family: var(--exdos-font-heading);
+  background-color: var(--exdos-sd-color);
+  padding: 6px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 18px;
+}
+.exdos-service-single .service-btn .exdos-sv-btn i {
+  transform: rotate(-45deg);
 }
 
 /*# sourceMappingURL=style.css.map */
