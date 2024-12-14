@@ -1,1 +1,17 @@
 @use '../../utils' as *;
+
+.exdos-service-single{
+    border: 1px solid var(--exdos-body-color);
+    padding: 40px;
+    border-radius: 20px;
+    margin-right: -1px;
+    
+    &-title{
+        font-size: 30px;
+        color: var(--exdos-heading-color);
+    }
+    &-content p{
+        font-size: 17px;
+        color: var(--exdos-body-color);
+    }
+}
