@@ -182,7 +182,7 @@
   background-color: var(--exdos-primary-color);
   font-family: var(--exdos-font-heading);
   font-size: 18px;
-  color: var(--exdos-heading-color);
+  color: var(--exdos-white);
   padding: 16px 46px;
   border-radius: 5px;
   display: inline-block;
