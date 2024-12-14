@@ -1,6 +1,38 @@
 @use '../../utils' as *;
 
-.exdos-newsletter-bg{
-    padding: 80px;
-    border-radius: 20px;
+.exdos-newsletter{
+    &-bg{
+        padding: 80px;
+        border-radius: 20px;
+    }
+    &-box{
+        form{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+    }
+}
+.exdos-newsletter-input{
+    width: calc(100% - 205px);
+
+    input{
+        color: var(--exdos-white);
+        border-color: var(--exdos-white);
+
+        @include exdos-placeholder{
+            color: var(--exdos-white);
+        }
+
+        &:focus{
+            border-color: var(--exdos-white);
+        }
+    }
+
+    img{
+        position: absolute;
+        right: 25px;
+        top: 20px;
+    }
 }

@@ -271,15 +271,15 @@ textarea{
 	width: 100%;
 	line-height: 56px;
 	font-size: 14px;
-	color: var(--exdos-white);
+	color: var(--exdos-body-color);
 	border: 0;
-	border-bottom: 1px solid var(--exdos-white);
+	border-bottom: 1px solid var(--exdos-body-color);
 	text-transform: uppercase;
 	font-weight: 500;
 
-	// @include exdos-placeholder{
-	// 	color: #95999D;
-	// }
+	@include exdos-placeholder{
+		color: #95999D;
+	}
 
 	&:focus{
 		border-color: var(--exdos-common-black);

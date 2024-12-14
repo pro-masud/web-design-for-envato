@@ -324,11 +324,47 @@ textarea {
   width: 100%;
   line-height: 56px;
   font-size: 14px;
-  color: var(--exdos-white);
+  color: var(--exdos-body-color);
   border: 0;
-  border-bottom: 1px solid var(--exdos-white);
+  border-bottom: 1px solid var(--exdos-body-color);
   text-transform: uppercase;
   font-weight: 500;
+}
+input[type=text]::-webkit-input-placeholder,
+input[type=email]::-webkit-input-placeholder,
+input[type=tel]::-webkit-input-placeholder,
+input[type=number]::-webkit-input-placeholder,
+input[type=password]::-webkit-input-placeholder,
+input[type=url]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #95999D;
+}
+input[type=text]:-moz-placeholder,
+input[type=email]:-moz-placeholder,
+input[type=tel]:-moz-placeholder,
+input[type=number]:-moz-placeholder,
+input[type=password]:-moz-placeholder,
+input[type=url]:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #95999D;
+}
+input[type=text]::-moz-placeholder,
+input[type=email]::-moz-placeholder,
+input[type=tel]::-moz-placeholder,
+input[type=number]::-moz-placeholder,
+input[type=password]::-moz-placeholder,
+input[type=url]::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #95999D;
+}
+input[type=text]:-ms-input-placeholder,
+input[type=email]:-ms-input-placeholder,
+input[type=tel]:-ms-input-placeholder,
+input[type=number]:-ms-input-placeholder,
+input[type=password]:-ms-input-placeholder,
+input[type=url]:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #95999D;
 }
 input[type=text]:focus,
 input[type=email]:focus,
@@ -4378,6 +4414,39 @@ textarea {
 .exdos-newsletter-bg {
   padding: 80px;
   border-radius: 20px;
+}
+.exdos-newsletter-box form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.exdos-newsletter-input {
+  width: calc(100% - 205px);
+}
+.exdos-newsletter-input input {
+  color: var(--exdos-white);
+  border-color: var(--exdos-white);
+}
+.exdos-newsletter-input input::-webkit-input-placeholder {
+  color: var(--exdos-white);
+}
+.exdos-newsletter-input input:-moz-placeholder {
+  color: var(--exdos-white);
+}
+.exdos-newsletter-input input::-moz-placeholder {
+  color: var(--exdos-white);
+}
+.exdos-newsletter-input input:-ms-input-placeholder {
+  color: var(--exdos-white);
+}
+.exdos-newsletter-input input:focus {
+  border-color: var(--exdos-white);
+}
+.exdos-newsletter-input img {
+  position: absolute;
+  right: 25px;
+  top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
