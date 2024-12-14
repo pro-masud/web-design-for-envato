@@ -2,4 +2,8 @@
 
 .section-title{
     font-size: 60px;
+
+    &-white{
+        color: var(--exdos-white);
+    }
 }

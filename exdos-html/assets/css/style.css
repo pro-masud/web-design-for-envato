@@ -190,6 +190,9 @@
 .section-title {
   font-size: 60px;
 }
+.section-title-white {
+  color: var(--exdos-white);
+}
 
 * {
   margin: 0;
@@ -416,6 +419,10 @@ textarea {
 
 .p-absolute {
   position: absolute;
+}
+
+.exdos-blue-bg {
+  background-color: var(--exdos-primary-color);
 }
 
 /*--
@@ -4362,6 +4369,11 @@ textarea {
 .exdos-about-video h4 {
   font-size: 30px;
   color: var(--exdos-body-color);
+}
+
+.exdos-newsletter-bg {
+  padding: 80px;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
