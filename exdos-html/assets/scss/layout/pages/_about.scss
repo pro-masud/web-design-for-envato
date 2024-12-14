@@ -21,3 +21,23 @@
         color: var(--exdos-body-color);
     }
 }
+
+.exdos-about-area{
+    .exdos-about-shape{
+        & .exdos-about-shape-1{
+            top: 23%;
+            left: 0;
+            z-index: 1;
+        }
+        & .exdos-about-shape-2{
+            top: 0;
+            right: 0;
+            z-index: 1;
+        }
+        & .exdos-about-shape-3{
+            top: 40%;
+            right: 42%;
+            z-index: 1;
+        }
+    }
+}
