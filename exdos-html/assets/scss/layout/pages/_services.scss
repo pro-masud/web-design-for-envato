@@ -10,6 +10,14 @@
     &-title{
         font-size: 30px;
         color: var(--exdos-heading-color);
+        a{
+            transition: .3s;
+        }
+        &:hover{
+            a{
+                color: var(--exdos-primary-color);
+            }
+        }
     }
     &-content p{
         font-size: 17px;

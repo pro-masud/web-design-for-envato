@@ -4489,6 +4489,12 @@ textarea {
   font-size: 30px;
   color: var(--exdos-heading-color);
 }
+.exdos-service-single-title a {
+  transition: 0.3s;
+}
+.exdos-service-single-title:hover a {
+  color: var(--exdos-primary-color);
+}
 .exdos-service-single-content p {
   font-size: 17px;
   color: var(--exdos-body-color);
