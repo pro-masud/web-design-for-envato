@@ -1,6 +1,11 @@
 @use '../../utils' as *;
 
 .exdos-testimonial{
+    &-quote-shape{
+        left: 25%;
+        top: 75px;
+        z-index: -1;
+    }
     &-quote{
         font-size: 100px;
     }
@@ -18,6 +23,17 @@
                 transform: translateY(-5px);
                 margin-right: 7px;
             }
+        }
+    }
+
+    &-pagination{
+        .exdos-test-btn{
+            top: 30%;
+            left: -100px;
+        }
+        .swiper-test-button-next{
+            left: auto;
+            right: -100px;
         }
     }
 }

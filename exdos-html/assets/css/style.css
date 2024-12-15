@@ -4577,6 +4577,11 @@ textarea {
   transform: rotate(-45deg);
 }
 
+.exdos-testimonial-quote-shape {
+  left: 25%;
+  top: 75px;
+  z-index: -1;
+}
 .exdos-testimonial-quote {
   font-size: 100px;
 }
@@ -4590,6 +4595,14 @@ textarea {
   display: inline-block;
   transform: translateY(-5px);
   margin-right: 7px;
+}
+.exdos-testimonial-pagination .exdos-test-btn {
+  top: 30%;
+  left: -100px;
+}
+.exdos-testimonial-pagination .swiper-test-button-next {
+  left: auto;
+  right: -100px;
 }
 
 /*# sourceMappingURL=style.css.map */
