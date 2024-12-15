@@ -4500,6 +4500,22 @@ textarea {
 .exdos-portfolio-thum img {
   border-radius: 20px;
 }
+.exdos-portfolio-tab-btn .exdos-portfolio-btn {
+  font-family: var(--exdos-font-heading);
+  font-size: 60px;
+  color: var(--exdos-white);
+  opacity: 0.3;
+  display: inline-block;
+  border: 2px solid rgba(217, 217, 217, 0.3);
+  padding: 50px 75px;
+  border-radius: 100%;
+  line-height: 1;
+  transition: 0.3s;
+}
+.exdos-portfolio-tab-btn .exdos-portfolio-btn:hover {
+  background-color: var(--exdos-primary-color);
+  opacity: 1;
+}
 
 .exdos-service-single {
   border: 1px solid var(--exdos-body-color);
