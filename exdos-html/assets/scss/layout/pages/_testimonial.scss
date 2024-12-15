@@ -1,1 +1,23 @@
 @use '../../utils' as *;
+
+.exdos-testimonial{
+    &-quote{
+        font-size: 100px;
+    }
+
+    &-author{
+        & .author{
+            font-size: 30px;
+        }
+        & .author-deg{
+            span{
+                height: 1px;
+                width: 60px;
+                background: var(--exdos-body-color);
+                display: inline-block;
+                transform: translateY(-5px);
+                margin-right: 7px;
+            }
+        }
+    }
+}

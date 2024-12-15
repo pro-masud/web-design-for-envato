@@ -4577,4 +4577,19 @@ textarea {
   transform: rotate(-45deg);
 }
 
+.exdos-testimonial-quote {
+  font-size: 100px;
+}
+.exdos-testimonial-author .author {
+  font-size: 30px;
+}
+.exdos-testimonial-author .author-deg span {
+  height: 1px;
+  width: 60px;
+  background: var(--exdos-body-color);
+  display: inline-block;
+  transform: translateY(-5px);
+  margin-right: 7px;
+}
+
 /*# sourceMappingURL=style.css.map */
