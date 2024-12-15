@@ -4582,6 +4582,14 @@ textarea {
   top: 75px;
   z-index: -1;
 }
+.exdos-testimonial-quote-shape-1 {
+  top: 115px;
+  left: 0;
+}
+.exdos-testimonial-quote-shape-2 {
+  right: 0;
+  top: 30px;
+}
 .exdos-testimonial-quote {
   font-size: 100px;
 }
