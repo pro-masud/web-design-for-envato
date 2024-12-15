@@ -137,8 +137,7 @@
   --exdos-white-rgba: 255, 255, 255;
   --exdos-grey-color: #b1b4ba;
   --exdos-grey-color-2: #f6f6f6;
-  --exdos-grey-color-3: #f6f6f6;
-  --exdos-grey-color-4: #f6f6f6;
+  --exdos-border-color-1: #2F446B;
 }
 
 :root {
@@ -464,6 +463,10 @@ textarea {
 
 .exdos-blue-bg {
   background-color: var(--exdos-primary-color);
+}
+
+.exdos-nblue-bg {
+  background-color: var(--exdos-nblue-color);
 }
 
 /*--
@@ -4476,6 +4479,23 @@ textarea {
 
 .news-letter-margin {
   margin-top: -110px;
+}
+
+.exdos-portfolio-tabs li button {
+  font-family: var(--exdos-font-heading);
+  font-size: 100px;
+  line-height: 1.2;
+  color: var(--exdos-white);
+  border-bottom: 1px solid var(--exdos-border-color-1);
+  display: inline-block;
+  padding: 12px 100px;
+  padding-right: 35px;
+  text-align: left;
+  transition: 0.3s;
+}
+.exdos-portfolio-tabs li button.active {
+  color: var(--exdos-secondary-color);
+  border-color: var(--exdos-secondary-color);
 }
 
 .exdos-service-single {
