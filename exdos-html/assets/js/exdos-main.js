@@ -18,7 +18,7 @@
           },
       });
 
-      // Brand Slider
+      // Brand Slider Top
       var swiper = new Swiper(".exdos-brand-top", {
         slidesPerView: 'auto',
         spaceBetween: 80,
@@ -33,6 +33,7 @@
           },
       });
 
+      // Brand Slider Bottom
       var swiper = new Swiper(".exdos-brand-bottom", {
         slidesPerView: 'auto',
         spaceBetween: 80,
