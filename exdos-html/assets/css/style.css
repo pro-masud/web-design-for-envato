@@ -137,7 +137,7 @@
   --exdos-white-rgba: 255, 255, 255;
   --exdos-grey-color: #b1b4ba;
   --exdos-grey-color-1: #D6D6D1;
-  --exdos-grey-color-2: #f6f6f6;
+  --exdos-grey-color-2: #DBDBDB;
   --exdos-border-color-1: #2F446B;
 }
 
@@ -4621,6 +4621,19 @@ textarea {
 .exdos-team-social li a {
   color: var(--exdos-heading-color);
   font-size: 25px;
+}
+
+.exdos-team-btn {
+  display: inline-block;
+}
+
+.exdos-team-pagination span {
+  width: 12px;
+  height: 12px;
+  background-color: var(--exdos-grey-color-2);
+  border-radius: 100%;
+  display: inline-block;
+  margin: 0 12px;
 }
 
 .exdos-testimonial-quote-shape {

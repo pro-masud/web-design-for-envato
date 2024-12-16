@@ -42,3 +42,16 @@
         }
     }
 }
+.exdos-team-btn{
+    display: inline-block;
+}
+.exdos-team-pagination{
+    & span{
+        width: 12px;
+        height: 12px;
+        background-color: var(--exdos-grey-color-2);
+        border-radius: 100%;
+        display: inline-block;
+        margin: 0 12px;
+    }
+}
