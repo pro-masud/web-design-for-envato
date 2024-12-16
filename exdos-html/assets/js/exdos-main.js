@@ -1,5 +1,16 @@
 (function($) {
-    $(document).ready(function() {  
+    $(document).ready(function() {
+
+      // Inline Background Image URL
+      $("[data-background]").each(function() {
+        $(this).css("background-image", "url(" + $(this).attr("data-background") + ")");
+      });
+
+      // Inline Background Color
+      $("[data-bg-color]").each(function() {
+        $(this).css("background-color", $(this).attr("data-bg-color"));
+      });
+    
 
       // Testimonial Slider
       var swiper = new Swiper(".exdos-testimonial-slider", {
