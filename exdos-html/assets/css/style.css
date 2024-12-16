@@ -465,8 +465,22 @@ textarea {
   background-color: var(--exdos-primary-color);
 }
 
+.exdos-yollow-bg {
+  background-color: var(--exdos-secondary-color);
+}
+
 .exdos-nblue-bg {
   background-color: var(--exdos-nblue-color);
+}
+
+.exdos-slide-transtion {
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+.exdos-brand-slide-element {
+  width: auto;
+  display: inline-block;
 }
 
 /*--
