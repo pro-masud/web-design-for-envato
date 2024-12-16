@@ -136,6 +136,7 @@
   --exdos-black-rgba: #000;
   --exdos-white-rgba: 255, 255, 255;
   --exdos-grey-color: #b1b4ba;
+  --exdos-grey-color-1: #D6D6D1;
   --exdos-grey-color-2: #f6f6f6;
   --exdos-border-color-1: #2F446B;
 }
@@ -4589,6 +4590,37 @@ textarea {
 }
 .exdos-service-single .service-btn .exdos-sv-btn i {
   transform: rotate(-45deg);
+}
+
+.exdos-team-thum a img {
+  border-radius: 15px;
+}
+.exdos-team-content .exdos-team-name {
+  font-size: 30px;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+.exdos-team-content .exdos-team-name:hover {
+  color: var(--exdos-primary-color);
+}
+.exdos-team-content .deg span {
+  width: 60px;
+  height: 1px;
+  background-color: var(--exdos-grey-color-1);
+  display: inline-block;
+  transform: translateY(-5px);
+  margin-right: 10px;
+}
+.exdos-team-social {
+  list-style: none;
+}
+.exdos-team-social li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.exdos-team-social li a {
+  color: var(--exdos-heading-color);
+  font-size: 25px;
 }
 
 .exdos-testimonial-quote-shape {

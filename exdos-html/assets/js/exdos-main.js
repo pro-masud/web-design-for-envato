@@ -48,5 +48,18 @@
           },
       });
 
+      // Team Slider
+      var swiper = new Swiper(".exdos-team-slider", {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            keyboard: {
+              enabled: true,
+            },
+            navigation: {
+              nextEl: ".swiper-team-button-prev",
+              prevEl: ".swiper-team-button-next",
+            },
+        });
+
     });
 })(jQuery);
