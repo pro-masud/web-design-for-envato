@@ -4446,6 +4446,30 @@ textarea {
   z-index: 1;
 }
 
+.exdos-award-wrapper .col-md-6:nth-child(even) {
+  border-left: 1px solid var(--exdos-body-color);
+}
+.exdos-award-wrapper .col-md-6:nth-child(even) .exdos-award-single {
+  padding-left: 40px;
+}
+.exdos-award-single {
+  border-bottom: 1px solid var(--exdos-body-color);
+  padding: 40px 0;
+}
+
+.exdos-award-wrapper .row .col-md-6:nth-child(2) .exdos-award-single {
+  padding-top: 0px;
+}
+
+.exdos-award-wrapper .row .col-md-6:nth-child(1) .exdos-award-single {
+  padding-top: 0px;
+}
+
+.exdos-award-wrapper .row [class*=col-]:nth-last-child(-n+2) .exdos-award-single {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
 .exdos-newsletter-bg {
   padding: 80px;
   border-radius: 20px;
