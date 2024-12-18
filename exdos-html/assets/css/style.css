@@ -4454,7 +4454,15 @@ textarea {
 }
 .exdos-award-single {
   border-bottom: 1px solid var(--exdos-body-color);
-  padding: 40px 0;
+  padding: 30px 0;
+}
+.exdos-award-single .exdos-award-desc {
+  font-size: 20px;
+  color: var(--exdos-body-color);
+}
+.exdos-award-single .exdos-ward-title {
+  font-size: 30px;
+  color: var(--exdos-heading-color);
 }
 
 .exdos-award-wrapper .row .col-md-6:nth-child(2) .exdos-award-single {
