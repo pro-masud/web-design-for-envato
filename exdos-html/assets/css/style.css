@@ -4624,6 +4624,22 @@ textarea {
   transform: rotate(-45deg);
 }
 
+.exdos-counter-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.exdos-counter__title {
+  font-size: 30px;
+  color: var(--exdos-white);
+  opacity: 0.5;
+}
+.exdos-counter__number span {
+  font-size: 100px;
+  line-height: 1.2;
+  color: var(--exdos-white);
+}
+
 .exdos-team-thum a img {
   border-radius: 15px;
 }

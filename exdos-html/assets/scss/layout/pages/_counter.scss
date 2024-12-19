@@ -1,0 +1,21 @@
+@use '../../utils' as *;
+
+.exdos-counter{
+    &-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__title{
+        font-size: 30px;
+        color: var(--exdos-white);
+        opacity: 0.5;
+    }
+    &__number{
+        & span{
+            font-size: 100px;
+            line-height: 1.2;
+            color: var(--exdos-white);
+        }
+    }
+}
