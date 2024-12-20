@@ -1,0 +1,45 @@
+@use '../../utils' as *;
+
+.exdos-blog{
+ &-single-thum{
+   & img{
+    border-radius: 20px;
+   }
+ } 
+ &-meta{ 
+    & span{
+        & i{
+            margin-right: 9px;
+        }
+    }  
+    & cite{
+        width: 2px;
+        height: 16px;
+        background-color: var(--exdos-body-color);
+        display: inline-block;
+        margin: 0 16px;
+    }
+ }
+ &-title{
+    font-size: 30px;
+    transition: .3s;
+    &:hover{
+        color: var(--exdos-primary-color);
+    }
+ }
+
+ &-btn{
+    & .exdos-btn-text{
+        transition: .3s;
+        &:hover{
+            color: var(--exdos-primary-color);
+        }
+
+        i{
+            transform: rotate(-45deg);
+            margin-left: 10px;
+        }
+        
+    }
+ }
+}

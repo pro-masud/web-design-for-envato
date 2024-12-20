@@ -191,6 +191,14 @@
   padding: 21px 47px;
 }
 
+.exdos-btn-text {
+  font-family: var(--exdos-font-heading);
+  font-size: 18px;
+  line-height: 156%;
+  color: #57595c;
+  display: inline-block;
+}
+
 .section-title {
   font-size: 60px;
 }
@@ -4718,6 +4726,37 @@ textarea {
 .exdos-testimonial-pagination .swiper-test-button-next {
   left: auto;
   right: -100px;
+}
+
+.exdos-blog-single-thum img {
+  border-radius: 20px;
+}
+.exdos-blog-meta span i {
+  margin-right: 9px;
+}
+.exdos-blog-meta cite {
+  width: 2px;
+  height: 16px;
+  background-color: var(--exdos-body-color);
+  display: inline-block;
+  margin: 0 16px;
+}
+.exdos-blog-title {
+  font-size: 30px;
+  transition: 0.3s;
+}
+.exdos-blog-title:hover {
+  color: var(--exdos-primary-color);
+}
+.exdos-blog-btn .exdos-btn-text {
+  transition: 0.3s;
+}
+.exdos-blog-btn .exdos-btn-text:hover {
+  color: var(--exdos-primary-color);
+}
+.exdos-blog-btn .exdos-btn-text i {
+  transform: rotate(-45deg);
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
