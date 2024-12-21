@@ -50,6 +50,9 @@
 .exdos-nblue-bg{
 	background-color: var(--exdos-nblue-color);
 }
+.exdos-sd-bg{
+	background-color: var(--exdos-sd-color);
+}
 
 .exdos-slide-transtion {
 	-webkit-transition-timing-function: linear;
@@ -58,4 +61,7 @@
 .exdos-brand-slide-element {
 	width: auto;
 	display: inline-block;
+}
+.section-title-lg{
+	font-size: 100px;
 }

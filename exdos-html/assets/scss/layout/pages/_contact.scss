@@ -1,1 +1,12 @@
 @use '../../utils' as *;
+
+
+.exdos-contact-form{
+    & input,
+    textarea{
+        color: var(--exdos-body-color);
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: var(--exdos-font-body);
+    }
+}

@@ -482,6 +482,10 @@ textarea {
   background-color: var(--exdos-nblue-color);
 }
 
+.exdos-sd-bg {
+  background-color: var(--exdos-sd-color);
+}
+
 .exdos-slide-transtion {
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
@@ -490,6 +494,10 @@ textarea {
 .exdos-brand-slide-element {
   width: auto;
   display: inline-block;
+}
+
+.section-title-lg {
+  font-size: 100px;
 }
 
 /*--
@@ -4534,6 +4542,14 @@ textarea {
 
 .news-letter-margin {
   margin-top: -110px;
+}
+
+.exdos-contact-form input,
+.exdos-contact-form textarea {
+  color: var(--exdos-body-color);
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: var(--exdos-font-body);
 }
 
 .exdos-portfolio-tabs li button {
