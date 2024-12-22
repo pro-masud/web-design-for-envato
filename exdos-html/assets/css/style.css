@@ -486,6 +486,10 @@ textarea {
   background-color: var(--exdos-sd-color);
 }
 
+.exdos-black-bg {
+  background-color: var(--exdos-heading-color);
+}
+
 .exdos-slide-transtion {
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
@@ -4237,6 +4241,20 @@ textarea {
 
 .pb-180 {
   padding-bottom: 180px;
+}
+
+.exdos-footer-widget.footer-logo .footer-logo img {
+  width: 100%;
+}
+.exdos-footer-widget.footer-shape .exdox-footer-top-sep {
+  height: 1px;
+  background-color: var(--exdos-white);
+  opacity: 0.15;
+}
+.exdos-footer-widget.footer-social a {
+  color: var(--exdos-white);
+  font-size: 24px;
+  margin-right: 18px;
 }
 
 .exdos-transparent-header {
