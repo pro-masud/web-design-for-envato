@@ -490,6 +490,10 @@ textarea {
   background-color: var(--exdos-heading-color);
 }
 
+.exdos-text-white {
+  color: var(--exdos-white);
+}
+
 .exdos-slide-transtion {
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
@@ -4255,6 +4259,33 @@ textarea {
   color: var(--exdos-white);
   font-size: 24px;
   margin-right: 18px;
+}
+
+.exdos-footer-middle .exdos-footer-widget .exdos-footer-title {
+  font-size: 20px;
+  color: var(--exdos-white);
+  margin-bottom: 15px;
+}
+.exdos-footer-middle .exdos-footer-widget p {
+  color: var(--exdos-grey-color);
+}
+.exdos-footer-middle .exdos-footer-widget .exdos-footer-link {
+  list-style: none;
+}
+.exdos-footer-middle .exdos-footer-widget .exdos-footer-link li a {
+  display: inline-block;
+  font-family: var(--exdos-body-font);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 188%;
+  color: var(--exdos-grey-color);
+}
+.exdos-footer-middle .exdos-footer-widget.footer-contact a {
+  display: inline-block;
+  font-family: var(--exdos-body-font);
+  font-size: 30px;
+  color: var(--exdos-white);
+  margin-bottom: 30px;
 }
 
 .exdos-transparent-header {

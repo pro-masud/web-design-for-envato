@@ -56,7 +56,9 @@
 .exdos-black-bg{
 	background-color: var(--exdos-heading-color);
 }
-
+.exdos-text-white{
+	color: var(--exdos-white);
+}
 .exdos-slide-transtion {
 	-webkit-transition-timing-function: linear;
 	transition-timing-function: linear;
