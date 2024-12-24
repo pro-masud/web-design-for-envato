@@ -4288,6 +4288,28 @@ textarea {
   margin-bottom: 30px;
 }
 
+.exdos-footer-bottom {
+  border-top: 1px solid var(--exdos-body-color);
+}
+.exdos-footer-bottom-copy-text {
+  color: var(--exdos-body-color);
+  text-transform: capitalize;
+}
+.exdos-footer-bottom-copy-text a {
+  color: var(--exdos-secondary-color);
+}
+.exdos-footer-bottom-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.exdos-footer-bottom-menu ul li a {
+  color: var(--exdos-grey-color);
+  font-size: 17px;
+  margin: 0 15px;
+  text-transform: capitalize;
+}
+
 .exdos-transparent-header {
   position: absolute;
   top: 0px;
