@@ -89,3 +89,47 @@
         }
     }
 }
+.exdos-footer-widget.quick-link {
+    position: relative;
+    padding-left: 30px;
+}
+.exdos-footer-widget.quick-link::before {
+    position: absolute;
+    top: 0px;
+    left: -60px;
+    border: 0;
+    width: 1px;
+    background: #fff;
+    content: "";
+    height: 100%;
+    opacity: 0.15;
+}
+
+.exdos-footer-widget.quick-link::after {
+    position: absolute;
+    top: 0px;
+    right: 60px;
+    border: 0;
+    width: 1px;
+    background: var(--exdos-white);
+    content: "";
+    height: 100%;
+    opacity: 0.15;
+}
+.exdos-footer-bottom-menu{
+    & ul{
+        & li{
+            position: relative;
+
+            &::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 1px;
+                height: 13px;
+                background-color: var(--exdos-grey-color);
+            }
+        }
+    }
+}
