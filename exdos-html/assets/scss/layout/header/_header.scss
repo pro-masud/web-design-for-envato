@@ -86,6 +86,14 @@
     }
     &-serach{
         margin-right: 30px;
+        & button{
+            & span{
+                display: flex;
+                align-items: center;
+                font-size: 30px;
+                color: var(--exdos-grey-color);
+            }
+        }
     }
     &-cta{
        display: flex;

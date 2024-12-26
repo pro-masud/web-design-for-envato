@@ -4426,6 +4426,12 @@ textarea {
 .exdos-header-serach {
   margin-right: 30px;
 }
+.exdos-header-serach button span {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: var(--exdos-grey-color);
+}
 .exdos-header-cta {
   display: flex;
   align-items: center;
