@@ -4441,6 +4441,12 @@ textarea {
 .exdos-header-cta-icon {
   margin-right: 15px;
 }
+.exdos-header-cta-icon a span {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: var(--exdos-secondary-color);
+}
 .exdos-header-cta-content span {
   font-family: var(--exdos-font-body);
   font-weight: 400;
