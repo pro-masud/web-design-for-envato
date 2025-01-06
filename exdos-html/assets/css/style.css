@@ -436,6 +436,10 @@ textarea {
   max-width: 100%;
 }
 
+img {
+  max-width: 100%;
+}
+
 .fix {
   overflow: hidden;
 }
@@ -4364,6 +4368,11 @@ textarea {
   display: inline-block;
   margin-right: 43px;
   position: relative;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1700px) {
+  .exdos-main-menu ul li {
+    margin-right: 27px;
+  }
 }
 .exdos-main-menu ul li a {
   color: var(--exdos-white);
