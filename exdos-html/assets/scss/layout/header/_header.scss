@@ -9,6 +9,9 @@
 }
 
 .exdos-main-menu{
+    @media #{$xl}{
+        padding-left: 30px;
+    }
     & ul{
         & li{
             display: inline-block;
@@ -17,10 +20,16 @@
             @media #{$xxl-mid}{
                 margin-right: 27px;
             }
+            @media #{$xl}{
+                margin-right: 20px;
+            }
            & a{
                 color: var(--exdos-white);
                 font-family: var(--exdos-font-heading);
                 font-size: 18px;
+                @media #{$xl}{
+                    font-size: 16px;
+                }
                 font-weight: 400;
                 padding: 36px 0;
                 display: inline-block;
@@ -69,9 +78,7 @@
             &:hover{
                 a{
                     color: var(--exdos-secondary-color);
-                    transition: .4s;
-    
-                   
+                    transition: .4s;    
                 }
                 
                 & .sub-menu{
@@ -89,6 +96,9 @@
     }
     &-serach{
         margin-right: 30px;
+        @media #{$xl}{
+            margin-right: 20px;
+        }
         & button{
             & span{
                 display: flex;
@@ -102,10 +112,17 @@
        display: flex;
        align-items: center;
        padding: 25px 50px 25px 30px;
+       @media #{$xl}{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
        border-left: 1px solid rgba(var(--exdos-white-rgba), .15);
 
         &-icon{
             margin-right: 15px;
+            @media #{$xl}{
+                margin-right: 5px;
+            }
             & a {
                 & span{
                     font-size: 40px;

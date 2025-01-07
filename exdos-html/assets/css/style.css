@@ -4364,6 +4364,11 @@ img {
   z-index: 2;
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .exdos-main-menu {
+    padding-left: 30px;
+  }
+}
 .exdos-main-menu ul li {
   display: inline-block;
   margin-right: 43px;
@@ -4374,6 +4379,11 @@ img {
     margin-right: 27px;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .exdos-main-menu ul li {
+    margin-right: 20px;
+  }
+}
 .exdos-main-menu ul li a {
   color: var(--exdos-white);
   font-family: var(--exdos-font-heading);
@@ -4381,6 +4391,11 @@ img {
   font-weight: 400;
   padding: 36px 0;
   display: inline-block;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .exdos-main-menu ul li a {
+    font-size: 16px;
+  }
 }
 .exdos-main-menu ul li .sub-menu {
   position: absolute;
@@ -4435,6 +4450,11 @@ img {
 .exdos-header-serach {
   margin-right: 30px;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .exdos-header-serach {
+    margin-right: 20px;
+  }
+}
 .exdos-header-serach button span {
   display: flex;
   align-items: center;
@@ -4447,8 +4467,19 @@ img {
   padding: 25px 50px 25px 30px;
   border-left: 1px solid rgba(var(--exdos-white-rgba), 0.15);
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .exdos-header-cta {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 .exdos-header-cta-icon {
   margin-right: 15px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .exdos-header-cta-icon {
+    margin-right: 5px;
+  }
 }
 .exdos-header-cta-icon a span {
   font-size: 40px;
