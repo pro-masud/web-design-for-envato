@@ -4528,6 +4528,11 @@ img {
     font-size: 80px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .exdos-hero-title {
+    font-size: 50px;
+  }
+}
 .exdos-hero-title span {
   background: radial-gradient(42.24% 2817.5% at 52.45% 54.17%, rgba(255, 232, 21, 0.95) 0%, #3C7FFF 100%);
   -webkit-background-clip: text;
@@ -4608,6 +4613,11 @@ img {
   display: block ruby;
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .exdos-about-video {
+    padding-left: 0px;
+  }
+}
 .exdos-about-video-area {
   display: flex;
   align-items: center;
@@ -4640,6 +4650,12 @@ img {
   top: 40%;
   right: 42%;
   z-index: 1;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .exdos-about-box {
+    padding-left: 20px;
+  }
 }
 
 .exdos-award-wrapper .col-md-6:nth-child(even) {
@@ -4743,6 +4759,11 @@ img {
   padding-right: 35px;
   text-align: left;
   transition: 0.3s;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .exdos-portfolio-tabs li button {
+    font-size: 70px;
+  }
 }
 .exdos-portfolio-tabs li button.active {
   color: var(--exdos-secondary-color);
@@ -4903,6 +4924,11 @@ img {
 }
 .exdos-testimonial-quote {
   font-size: 100px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .exdos-testimonial-quote {
+    font-size: 80px;
+  }
 }
 .exdos-testimonial-author .author {
   font-size: 30px;

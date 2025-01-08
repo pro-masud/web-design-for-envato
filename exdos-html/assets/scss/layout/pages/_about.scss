@@ -1,6 +1,9 @@
 @use '../../utils' as *;
 
 .exdos-about-video{
+    @media #{$xl}{
+        padding-left: 0px;
+    }
     &-area{
         display: flex;
         align-items: center;
@@ -39,5 +42,10 @@
             right: 42%;
             z-index: 1;
         }
+    }
+}
+.exdos-about-box{
+    @media #{$xl}{
+       padding-left: 20px;
     }
 }

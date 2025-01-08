@@ -6,6 +6,9 @@
             & button{
                 font-family: var(--exdos-font-heading);
                 font-size: 100px;
+                @media #{$xl}{
+                    font-size: 70px;
+                }
                 line-height: 1.2;
                 color: var(--exdos-white);
                 border-bottom: 1px solid var(--exdos-border-color-1);

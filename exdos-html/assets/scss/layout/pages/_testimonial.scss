@@ -16,6 +16,9 @@
     }
     &-quote{
         font-size: 100px;
+        @media #{$xl}{
+            font-size: 80px;
+        }
     }
 
     &-author{
