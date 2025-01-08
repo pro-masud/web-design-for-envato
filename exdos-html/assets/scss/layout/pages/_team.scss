@@ -9,6 +9,12 @@
         }
     }
     &-content{
+        @media #{$xxl-mid}{
+            margin-left: 25px;
+        }
+        @media #{$xl}{
+            margin-left: 0px;
+        }
         .exdos-team-name{
             font-size: 30px;
             transition: .3s;

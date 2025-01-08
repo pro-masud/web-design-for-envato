@@ -4868,6 +4868,16 @@ img {
 .exdos-team-thum a img {
   border-radius: 15px;
 }
+@media only screen and (min-width: 1400px) and (max-width: 1700px) {
+  .exdos-team-content {
+    margin-left: 25px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .exdos-team-content {
+    margin-left: 0px;
+  }
+}
 .exdos-team-content .exdos-team-name {
   font-size: 30px;
   transition: 0.3s;
