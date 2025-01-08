@@ -4512,11 +4512,21 @@ img {
   background-color: #23252D;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .exdos-hero-section {
+    padding-top: 250px;
+  }
+}
 .exdos-hero-title {
   font-size: 110px;
   text-transform: uppercase;
   color: var(--exdos-white);
   margin: 0;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+  .exdos-hero-title {
+    font-size: 80px;
+  }
 }
 .exdos-hero-title span {
   background: radial-gradient(42.24% 2817.5% at 52.45% 54.17%, rgba(255, 232, 21, 0.95) 0%, #3C7FFF 100%);
@@ -4581,6 +4591,11 @@ img {
   z-index: 11;
   border-right: 1px solid rgba(255, 255, 255, 0.15);
   white-space: nowrap;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .exdos-hero-info {
+    display: none;
+  }
 }
 
 .exdos-hero-social {
