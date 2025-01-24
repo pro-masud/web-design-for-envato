@@ -32,7 +32,7 @@
     }
 }
 .exdos-award-wrapper .row .col-md-6:nth-child(1){
-    .exdos-award-single{
+     .exdos-award-single{
         padding-top: 0px;
     }
 }
@@ -40,4 +40,9 @@
 .exdos-award-wrapper .row [class*=col-]:nth-last-child(-n+2)  .exdos-award-single{
     padding-bottom: 0;
     border-bottom: 0;
+}
+.exdos-award-shape{
+    @media #{$lg}{
+        margin-bottom: 60px;
+    }
 }
