@@ -8,6 +8,9 @@
         @media #{$md}{
             padding: 60px;
         }
+        @media #{$sm}{
+            padding: 40px;
+        }
     }
     &-tabs{
         & li{
@@ -29,7 +32,8 @@
                 @media #{$md}{
                     font-size: 60px;
                 }
-                @media #{$md}{
+                @media #{$md, $sm}{
+                    font-size: 50px;
                     padding: 12px 0px;
                     width: 100%;
                     text-align: center;

@@ -4826,6 +4826,11 @@ img {
     padding: 60px;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .exdos-portfolio-area {
+    padding: 40px;
+  }
+}
 .exdos-portfolio-tabs li {
   list-style: none;
 }
@@ -4851,8 +4856,9 @@ img {
     font-size: 60px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
   .exdos-portfolio-tabs li button {
+    font-size: 50px;
     padding: 12px 0px;
     width: 100%;
     text-align: center;
