@@ -5057,7 +5057,7 @@ img {
   top: 115px;
   left: 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .exdos-testimonial-quote-shape-1 {
     display: none;
   }
@@ -5066,7 +5066,7 @@ img {
   right: 0;
   top: 30px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .exdos-testimonial-quote-shape-2 {
     display: none;
   }
@@ -5086,6 +5086,26 @@ img {
     margin: auto;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .exdos-testimonial-quote {
+    font-size: 45px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .exdos-testimonial-quote {
+    font-size: 32px;
+  }
+}
+@media (max-width: 575px) {
+  .exdos-testimonial-quote {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .exdos-testimonial-author {
+    margin-top: 35px;
+  }
+}
 .exdos-testimonial-author .author {
   font-size: 30px;
 }
@@ -5096,6 +5116,11 @@ img {
   display: inline-block;
   transform: translateY(-5px);
   margin-right: 7px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .exdos-testimonial-pagination {
+    display: none;
+  }
 }
 .exdos-testimonial-pagination .exdos-test-btn {
   top: 30%;
@@ -5112,6 +5137,11 @@ img {
     left: -20px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .exdos-testimonial-pagination .exdos-test-btn {
+    left: -30px;
+  }
+}
 .exdos-testimonial-pagination .swiper-test-button-next {
   left: auto;
   right: -100px;
@@ -5124,6 +5154,11 @@ img {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .exdos-testimonial-pagination .swiper-test-button-next {
     right: -20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .exdos-testimonial-pagination .swiper-test-button-next {
+    right: -30px;
   }
 }
 

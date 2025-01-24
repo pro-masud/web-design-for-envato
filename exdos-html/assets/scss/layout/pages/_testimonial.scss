@@ -9,14 +9,14 @@
     &-quote-shape-1{
         top: 115px;
         left: 0;
-        @media #{$lg}{
+        @media #{$lg, $md, $sm, $xs}{
             display: none;
         }
     }
     &-quote-shape-2{
         right: 0;
         top: 30px;
-        @media #{$lg}{
+        @media #{$lg, $md, $sm, $xs}{
             display: none;
         }
     }
@@ -30,9 +30,21 @@
             max-width: 700px;
             margin: auto;
         }
+        @media #{$md}{
+            font-size: 45px;
+        }
+        @media #{$sm}{
+            font-size: 32px;
+        }
+        @media #{$xs}{
+            font-size: 30px;
+        }
     }
 
     &-author{
+        @media #{$md, $sm, $xs}{
+            margin-top: 35px;
+        }
         & .author{
             font-size: 30px;
         }
@@ -49,6 +61,9 @@
     }
 
     &-pagination{
+        @media #{$sm, $xs}{
+            display: none;
+        }
         .exdos-test-btn{
             top: 30%;
             left: -100px;
@@ -59,6 +74,9 @@
                 top: 40%;
                 left: -20px;
             }
+            @media #{$md}{
+                left: -30px;
+            }
         }
         .swiper-test-button-next{
             left: auto;
@@ -68,6 +86,9 @@
             }
             @media #{$lg}{
                 right: -20px;
+            }
+            @media #{$md}{
+                right: -30px;
             }
         }
         
