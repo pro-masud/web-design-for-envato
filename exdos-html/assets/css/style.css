@@ -4602,6 +4602,21 @@ img {
     display: none;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .exdos-hero-info {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .exdos-hero-info {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .exdos-hero-info {
+    display: none;
+  }
+}
 
 .exdos-hero-social {
   transform: rotate(-90deg);

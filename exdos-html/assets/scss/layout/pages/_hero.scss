@@ -80,6 +80,15 @@
     @media #{$lg}{
        display: none;
     }
+    @media #{$md}{
+        display: none;
+    }
+    @media #{$sm}{
+        display: none;
+    }
+    @media #{$xs}{
+        display: none;
+    }
 }
 .exdos-hero-social{
     transform: rotate(-90deg);
