@@ -32,8 +32,12 @@
         }
     }
     &-thum{
-        img{
-            border-radius: 20px;
+        & a{
+            display: block;
+            width: 100%;
+            & img{
+                border-radius: 20px;
+            }
         }
     }
     &-tab-btn{

@@ -4787,7 +4787,11 @@ img {
   color: var(--exdos-secondary-color);
   border-color: var(--exdos-secondary-color);
 }
-.exdos-portfolio-thum img {
+.exdos-portfolio-thum a {
+  display: block;
+  width: 100%;
+}
+.exdos-portfolio-thum a img {
   border-radius: 20px;
 }
 .exdos-portfolio-tab-btn .exdos-portfolio-btn {
