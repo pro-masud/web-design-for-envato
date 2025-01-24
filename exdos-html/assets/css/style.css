@@ -4444,6 +4444,11 @@ img {
   top: 100%;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .exdos-header {
+    display: none;
+  }
+}
 .exdos-header-border {
   border-bottom: 1px solid rgba(var(--exdos-white-rgba), 0.15);
 }
@@ -4471,6 +4476,11 @@ img {
   .exdos-header-cta {
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .exdos-header-cta {
+    display: none;
   }
 }
 .exdos-header-cta-icon {
@@ -4530,7 +4540,12 @@ img {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .exdos-hero-title {
-    font-size: 50px;
+    font-size: 60px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .exdos-hero-title {
+    font-size: 44px;
   }
 }
 .exdos-hero-title span {
