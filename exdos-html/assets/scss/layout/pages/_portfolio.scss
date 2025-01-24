@@ -5,6 +5,9 @@
         @media #{$lg}{
             padding: 80px;
         }
+        @media #{$md}{
+            padding: 60px;
+        }
     }
     &-tabs{
         & li{
@@ -23,7 +26,14 @@
                 @media #{$xl}{
                     font-size: 70px;
                 }
-
+                @media #{$md}{
+                    font-size: 60px;
+                }
+                @media #{$md}{
+                    padding: 12px 0px;
+                    width: 100%;
+                    text-align: center;
+                 }
                 &.active{
                     color: var(--exdos-secondary-color);
                     border-color: var(--exdos-secondary-color);
@@ -39,6 +49,7 @@
                 border-radius: 20px;
             }
         }
+
     }
     &-tab-btn{
         .exdos-portfolio-btn{

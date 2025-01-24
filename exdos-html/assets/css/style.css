@@ -4784,6 +4784,11 @@ img {
     padding: 80px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .exdos-portfolio-area {
+    padding: 60px;
+  }
+}
 .exdos-portfolio-tabs li {
   list-style: none;
 }
@@ -4802,6 +4807,18 @@ img {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .exdos-portfolio-tabs li button {
     font-size: 70px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .exdos-portfolio-tabs li button {
+    font-size: 60px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .exdos-portfolio-tabs li button {
+    padding: 12px 0px;
+    width: 100%;
+    text-align: center;
   }
 }
 .exdos-portfolio-tabs li button.active {
