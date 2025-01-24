@@ -23,11 +23,11 @@
     &-quote{
         font-size: 100px;
         @media #{$xl}{
-            font-size: 80px;
+            font-size: 70px;
         }
         @media #{$lg}{
             font-size: 60px;
-            max-width: 750px;
+            max-width: 700px;
             margin: auto;
         }
     }
@@ -52,15 +52,22 @@
         .exdos-test-btn{
             top: 30%;
             left: -100px;
+            @media #{$xl}{
+                left: -20px;
+            }
             @media #{$lg}{
-                left: 40px;
+                top: 40%;
+                left: -20px;
             }
         }
         .swiper-test-button-next{
             left: auto;
             right: -100px;
+            @media #{$xl}{
+                right: -20px;
+            }
             @media #{$lg}{
-                left: 0px;
+                right: -20px;
             }
         }
         
