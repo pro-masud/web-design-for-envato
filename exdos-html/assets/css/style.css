@@ -4745,6 +4745,11 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .exdos-newsletter-box form {
+    flex-direction: column;
+  }
+}
 .exdos-newsletter-box h2 {
   font-size: 100px;
   color: var(--exdos-white);
@@ -4753,9 +4758,21 @@ img {
   left: 100px;
   top: -27px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .exdos-newsletter-box h2 {
+    font-size: 65px;
+    left: 20px;
+    top: -8px;
+  }
+}
 
 .exdos-newsletter-input {
   width: calc(100% - 205px);
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .exdos-newsletter-input {
+    width: 100%;
+  }
 }
 .exdos-newsletter-input input {
   color: var(--exdos-white);
@@ -4775,6 +4792,11 @@ img {
 }
 .exdos-newsletter-input input:focus {
   border-color: var(--exdos-white);
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .exdos-newsletter-input input {
+    margin-bottom: 20px;
+  }
 }
 .exdos-newsletter-input img {
   position: absolute;

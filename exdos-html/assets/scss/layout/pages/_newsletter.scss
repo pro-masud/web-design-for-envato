@@ -10,6 +10,9 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
+            @media #{$sm}{
+                flex-direction: column;
+            }
         }
         h2{
             font-size: 100px;
@@ -18,11 +21,19 @@
             position: absolute;
             left: 100px;
             top: -27px;
+            @media #{$lg, $md, $sm, $xs}{
+                font-size: 65px;
+                left: 20px;
+                top: -8px;
+            }
         }
     }
 }
 .exdos-newsletter-input{
     width: calc(100% - 205px);
+    @media #{$sm}{
+        width: 100%;
+    }
     input{
         color: var(--exdos-white);
         border-color: var(--exdos-white);
@@ -33,6 +44,9 @@
 
         &:focus{
             border-color: var(--exdos-white);
+        }
+        @media #{$sm}{
+           margin-bottom: 20px;
         }
     }
     img{
