@@ -1,11 +1,11 @@
 @use '../../utils' as *;
 
 .exdos-about-video{
-    @media #{$xl}{
+    @media #{$xl, $lg, $md, $sm, $xs}{
         padding-left: 0px;
     }
-    @media #{$lg}{
-        padding-left: 0px;
+    @media #{$lg, $md, $sm, $xs}{
+        margin-top: 60px;
     }
     &-area{
         display: flex;
@@ -51,7 +51,7 @@
     @media #{$xl}{
        padding-left: 20px;
     }
-    @media #{$lg}{
+    @media #{$lg, $md, $sm, $xs}{
         padding-left: 0px;
     }
 }
