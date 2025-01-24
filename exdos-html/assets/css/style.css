@@ -4618,6 +4618,11 @@ img {
     padding-left: 0px;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .exdos-about-video {
+    padding-left: 0px;
+  }
+}
 .exdos-about-video-area {
   display: flex;
   align-items: center;
@@ -4655,6 +4660,11 @@ img {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .exdos-about-box {
     padding-left: 20px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .exdos-about-box {
+    padding-left: 0px;
   }
 }
 
@@ -4748,6 +4758,14 @@ img {
   font-family: var(--exdos-font-body);
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .exdos-portfolio-area {
+    padding: 80px;
+  }
+}
+.exdos-portfolio-tabs li {
+  list-style: none;
+}
 .exdos-portfolio-tabs li button {
   font-family: var(--exdos-font-heading);
   font-size: 100px;

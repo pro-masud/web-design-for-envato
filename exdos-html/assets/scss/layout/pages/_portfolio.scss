@@ -1,14 +1,17 @@
 @use '../../utils' as *;
 
 .exdos-portfolio{
+    &-area{
+        @media #{$lg}{
+            padding: 80px;
+        }
+    }
     &-tabs{
         & li{
+            list-style: none;
             & button{
                 font-family: var(--exdos-font-heading);
                 font-size: 100px;
-                @media #{$xl}{
-                    font-size: 70px;
-                }
                 line-height: 1.2;
                 color: var(--exdos-white);
                 border-bottom: 1px solid var(--exdos-border-color-1);
@@ -17,6 +20,9 @@
                 padding-right: 35px;
                 text-align: left;
                 transition: .3s;
+                @media #{$xl}{
+                    font-size: 70px;
+                }
 
                 &.active{
                     color: var(--exdos-secondary-color);

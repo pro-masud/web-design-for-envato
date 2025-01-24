@@ -4,6 +4,9 @@
     @media #{$xl}{
         padding-left: 0px;
     }
+    @media #{$lg}{
+        padding-left: 0px;
+    }
     &-area{
         display: flex;
         align-items: center;
@@ -47,5 +50,8 @@
 .exdos-about-box{
     @media #{$xl}{
        padding-left: 20px;
+    }
+    @media #{$lg}{
+        padding-left: 0px;
     }
 }
