@@ -9,15 +9,26 @@
     &-quote-shape-1{
         top: 115px;
         left: 0;
+        @media #{$lg}{
+            display: none;
+        }
     }
     &-quote-shape-2{
         right: 0;
         top: 30px;
+        @media #{$lg}{
+            display: none;
+        }
     }
     &-quote{
         font-size: 100px;
         @media #{$xl}{
             font-size: 80px;
+        }
+        @media #{$lg}{
+            font-size: 60px;
+            max-width: 750px;
+            margin: auto;
         }
     }
 
@@ -41,10 +52,17 @@
         .exdos-test-btn{
             top: 30%;
             left: -100px;
+            @media #{$lg}{
+                left: 40px;
+            }
         }
         .swiper-test-button-next{
             left: auto;
             right: -100px;
+            @media #{$lg}{
+                left: 0px;
+            }
         }
+        
     }
 }

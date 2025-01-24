@@ -4950,9 +4950,19 @@ img {
   top: 115px;
   left: 0;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .exdos-testimonial-quote-shape-1 {
+    display: none;
+  }
+}
 .exdos-testimonial-quote-shape-2 {
   right: 0;
   top: 30px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .exdos-testimonial-quote-shape-2 {
+    display: none;
+  }
 }
 .exdos-testimonial-quote {
   font-size: 100px;
@@ -4960,6 +4970,13 @@ img {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .exdos-testimonial-quote {
     font-size: 80px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .exdos-testimonial-quote {
+    font-size: 60px;
+    max-width: 750px;
+    margin: auto;
   }
 }
 .exdos-testimonial-author .author {
@@ -4977,9 +4994,19 @@ img {
   top: 30%;
   left: -100px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .exdos-testimonial-pagination .exdos-test-btn {
+    left: 40px;
+  }
+}
 .exdos-testimonial-pagination .swiper-test-button-next {
   left: auto;
   right: -100px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .exdos-testimonial-pagination .swiper-test-button-next {
+    left: 0px;
+  }
 }
 
 .exdos-blog-single-thum img {
