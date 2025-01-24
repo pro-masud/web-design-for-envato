@@ -4968,6 +4968,26 @@ img {
   color: var(--exdos-white);
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .exdos-team-area {
+    padding: 80px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .exdos-team-area {
+    padding: 60px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .exdos-team-area {
+    padding: 40px;
+  }
+}
+@media (max-width: 575px) {
+  .exdos-team-area {
+    padding: 20px;
+  }
+}
 .exdos-team-thum a img {
   border-radius: 15px;
 }
@@ -5020,6 +5040,12 @@ img {
   border-radius: 100%;
   display: inline-block;
   margin: 0 12px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .exdos-team-pagination {
+    text-align: left !important;
+    margin-top: 20px;
+  }
 }
 
 .exdos-testimonial-quote-shape {

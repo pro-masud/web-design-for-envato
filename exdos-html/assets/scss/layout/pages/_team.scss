@@ -1,6 +1,20 @@
 @use '../../utils' as *;
 
 .exdos-team{
+    &-area{
+        @media #{$lg}{
+            padding: 80px;
+        }
+        @media #{$md}{
+            padding: 60px;
+        }
+        @media #{$sm}{
+            padding: 40px;
+        }
+        @media #{$xs}{
+            padding: 20px;
+        }
+    }
     &-thum{
        & a{
           & img{
@@ -59,5 +73,9 @@
         border-radius: 100%;
         display: inline-block;
         margin: 0 12px;
+    }
+    @media #{$lg, $md, $sm, $xs}{
+        text-align: left !important;
+        margin-top: 20px;
     }
 }
