@@ -1,6 +1,11 @@
 @use '../../utils' as *;
 
 .exdos-counter{
+    &__single-counter{
+        @media #{$lg, $md, $sm, $xs}{
+            text-align: center;
+        }
+    }
     &-wrapper{
         display: flex;
         flex-wrap: wrap;
@@ -10,12 +15,30 @@
         font-size: 30px;
         color: var(--exdos-white);
         opacity: 0.5;
+        @media #{$md}{
+            font-size: 26px;
+        }
+        @media #{$sm}{
+            font-size: 22px;
+        }
+        @media #{$xs}{
+            font-size: 18px;
+        }
     }
     &__number{
         & span{
             font-size: 100px;
             line-height: 1.2;
             color: var(--exdos-white);
+            @media #{$md}{
+                font-size: 80px;
+            }
+            @media #{$sm}{
+                font-size: 70px;
+            }
+            @media #{$xs}{
+                font-size: 60px;
+            }
         }
     }
 }
