@@ -5007,6 +5007,11 @@ img {
     text-align: center;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .exdos-counter__single-counter {
+    width: 100%;
+  }
+}
 .exdos-counter-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -5252,6 +5257,7 @@ img {
 }
 .exdos-blog-single-thum img {
   border-radius: 20px;
+  width: 100%;
 }
 .exdos-blog-meta span i {
   margin-right: 9px;
@@ -5281,9 +5287,10 @@ img {
   margin-left: 10px;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .exdos-blog-single-content {
     padding-left: 0px;
+    text-align: center;
   }
 }
 

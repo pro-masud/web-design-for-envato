@@ -6,9 +6,10 @@
         margin-bottom: 40px;
     }
     &-single-thum{
-    & img{
-        border-radius: 20px;
-    }
+        & img{
+            border-radius: 20px;
+            width: 100%;
+        }
     } 
     &-meta{ 
         & span{
@@ -48,7 +49,8 @@
     }
 }
 .exdos-blog-single-content{
-    @media #{$lg}{
+    @media #{$lg, $md, $sm, $xs}{
         padding-left: 0px;
+        text-align: center;
     }
 }

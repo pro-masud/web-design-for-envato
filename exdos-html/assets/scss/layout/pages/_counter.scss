@@ -5,6 +5,9 @@
         @media #{$lg, $md, $sm, $xs}{
             text-align: center;
         }
+        @media #{$sm, $xs}{
+            width: 100%;
+        }
     }
     &-wrapper{
         display: flex;
