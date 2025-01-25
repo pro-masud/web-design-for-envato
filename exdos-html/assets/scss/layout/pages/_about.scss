@@ -7,6 +7,17 @@
     @media #{$lg, $md, $sm, $xs}{
         margin-top: 60px;
     }
+    & .exdos-section-title-wrapper{
+        & .section-title{
+            @media #{$sm}{
+                font-size: 45px;
+            }
+            @media #{$xs}{
+                font-size: 40px;
+            }
+        }
+    }
+   
     &-area{
         display: flex;
         align-items: center;
@@ -20,11 +31,19 @@
             text-align: center;
             border-radius: 50%;
             line-height: 75px;
+            @media #{$sm, $xs}{
+                width: 60px;
+                height: 60px;
+                line-height: 55px;
+            }
         }
     }
     & h4{
         font-size: 30px;
         color: var(--exdos-body-color);
+        @media #{$sm, $xs}{
+            font-size: 26px;
+        }
     }
 }
 
@@ -53,5 +72,17 @@
     }
     @media #{$lg, $md, $sm, $xs}{
         padding-left: 0px;
+    }
+}
+.exdos-about-content{
+    & .exdos-section-title-wrapper{
+        & .section-title{
+            @media #{$sm}{
+                font-size: 45px;
+            }
+            @media #{$xs}{
+                font-size: 40px;
+            }
+        }
     }
 }

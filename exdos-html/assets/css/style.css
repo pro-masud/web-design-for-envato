@@ -4658,6 +4658,16 @@ img {
     margin-top: 60px;
   }
 }
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .exdos-about-video .exdos-section-title-wrapper .section-title {
+    font-size: 45px;
+  }
+}
+@media (max-width: 575px) {
+  .exdos-about-video .exdos-section-title-wrapper .section-title {
+    font-size: 40px;
+  }
+}
 .exdos-about-video-area {
   display: flex;
   align-items: center;
@@ -4671,9 +4681,21 @@ img {
   border-radius: 50%;
   line-height: 75px;
 }
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .exdos-about-video-icon a {
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+  }
+}
 .exdos-about-video h4 {
   font-size: 30px;
   color: var(--exdos-body-color);
+}
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .exdos-about-video h4 {
+    font-size: 26px;
+  }
 }
 
 .exdos-about-area .exdos-about-shape .exdos-about-shape-1 {
@@ -4700,6 +4722,17 @@ img {
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .exdos-about-box {
     padding-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .exdos-about-content .exdos-section-title-wrapper .section-title {
+    font-size: 45px;
+  }
+}
+@media (max-width: 575px) {
+  .exdos-about-content .exdos-section-title-wrapper .section-title {
+    font-size: 40px;
   }
 }
 
@@ -4745,12 +4778,17 @@ img {
   padding: 80px;
   border-radius: 20px;
 }
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .exdos-newsletter-bg {
+    padding: 40px;
+  }
+}
 .exdos-newsletter-box form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .exdos-newsletter-box form {
     flex-direction: column;
   }

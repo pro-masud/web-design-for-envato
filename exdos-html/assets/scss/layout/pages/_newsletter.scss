@@ -4,13 +4,16 @@
     &-bg{
         padding: 80px;
         border-radius: 20px;
+        @media #{$sm, $xs}{
+           padding: 40px;
+        }
     }
     &-box{
         form{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            @media #{$sm}{
+            @media #{$sm, $xs}{
                 flex-direction: column;
             }
         }
