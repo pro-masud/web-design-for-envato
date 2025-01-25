@@ -4812,7 +4812,7 @@ img {
 .exdos-newsletter-input {
   width: calc(100% - 205px);
 }
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .exdos-newsletter-input {
     width: 100%;
   }
@@ -4836,7 +4836,7 @@ img {
 .exdos-newsletter-input input:focus {
   border-color: var(--exdos-white);
 }
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .exdos-newsletter-input input {
     margin-bottom: 20px;
   }
@@ -4869,7 +4869,7 @@ img {
     padding: 60px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .exdos-portfolio-area {
     padding: 40px;
   }
@@ -4905,6 +4905,13 @@ img {
     padding: 12px 0px;
     width: 100%;
     text-align: center;
+  }
+}
+@media (max-width: 575px) {
+  .exdos-portfolio-tabs li button {
+    font-size: 35px;
+    width: 100%;
+    padding: 12px 0px;
   }
 }
 .exdos-portfolio-tabs li button.active {

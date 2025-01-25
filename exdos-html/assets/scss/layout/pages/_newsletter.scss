@@ -34,7 +34,7 @@
 }
 .exdos-newsletter-input{
     width: calc(100% - 205px);
-    @media #{$sm}{
+    @media #{$sm, $xs}{
         width: 100%;
     }
     input{
@@ -48,7 +48,7 @@
         &:focus{
             border-color: var(--exdos-white);
         }
-        @media #{$sm}{
+        @media #{$sm, $xs}{
            margin-bottom: 20px;
         }
     }

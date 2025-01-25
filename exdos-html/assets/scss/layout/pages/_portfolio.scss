@@ -8,7 +8,7 @@
         @media #{$md}{
             padding: 60px;
         }
-        @media #{$sm}{
+        @media #{$sm, $xs}{
             padding: 40px;
         }
     }
@@ -37,7 +37,12 @@
                     padding: 12px 0px;
                     width: 100%;
                     text-align: center;
-                 }
+                }
+                @media #{$xs}{
+                    font-size: 35px;
+                    width: 100%;
+                    padding: 12px 0px;
+                }
                 &.active{
                     color: var(--exdos-secondary-color);
                     border-color: var(--exdos-secondary-color);
