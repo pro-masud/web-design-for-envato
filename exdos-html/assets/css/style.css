@@ -4522,6 +4522,11 @@ img {
   background-color: #23252D;
 }
 
+@media only screen and (min-width: 1400px) and (max-width: 4000px) {
+  .exdos-hero {
+    padding-left: 60px;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .exdos-hero-section {
     padding-top: 250px;

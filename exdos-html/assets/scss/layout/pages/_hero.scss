@@ -1,6 +1,9 @@
 @use '../../utils' as *;
 
 .exdos-hero{
+    @media #{$xxl}{
+        padding-left: 60px;
+    }
     &-section{
         @media #{$lg}{
             padding-top: 250px;
