@@ -10,7 +10,16 @@
       $("[data-bg-color]").each(function() {
         $(this).css("background-color", $(this).attr("data-bg-color"));
       });
-    
+      
+      // magnificPopup
+      $('.exdos-video').magnificPopup({
+        type: 'iframe'
+        // other options
+      });
+      $('.exdox-image').magnificPopup({
+        type: 'image'
+        // other options
+      });
 
       // Testimonial Slider
       var swiper = new Swiper(".exdos-testimonial-slider", {
