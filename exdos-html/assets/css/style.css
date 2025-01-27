@@ -176,6 +176,30 @@
   padding: 16px 46px;
   border-radius: 5px;
   display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.exdos-btn .exdos-btn-wrap {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+.exdos-btn .exdos-btn-wrap span {
+  transition: 0.2s;
+  display: block;
+}
+.exdos-btn .exdos-btn-wrap .exdos-btn-y-2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transform: translateY(100%);
+}
+.exdos-btn:hover .exdos-btn-y-1 {
+  transform: translateY(-100%);
+}
+.exdos-btn:hover .exdos-btn-y-2 {
+  transform: translateY(0);
 }
 
 .exdos-btn-sec {
